@@ -1,0 +1,138 @@
+body {
+    background-image: linear-gradient(black, white);
+}
+
+main {
+    width: 1180px;
+    height: 1500px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 6px #888;
+    margin: auto;
+}
+
+h1 {
+    color: #139c19;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: -3px 3px 2px #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* menu */
+
+.main-menu {
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.main-menu,
+.sub-menu {
+    background-image: linear-gradient(#444, #111);
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    font-size: 24px;
+    box-shadow: 2px 2px 3px #9c9c9c;
+}
+
+.main-menu li {
+    display: table-cell;
+}
+
+.main-menu li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.main-menu li a:hover {
+    background-color: #139c19;
+    color: #fafafa;
+    text-shadow: -1px 1px 1px #000;
+}
+
+
+/* article */
+
+article {
+    padding: 40px;
+}
+
+#col1 {
+    float: left;
+    width: 70%;
+    margin-bottom: 25px;
+    height: 1200px;
+}
+
+p {
+    margin-left: 15px;
+    text-align: justify;
+    margin-right: 25px;
+}
+
+.text2 {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: purple;
+    column-rule-width: 1px;
+}
+
+#col2 {
+    float: right;
+    width: 30%;
+    background-color: red;
+    box-shadow: -5px 1px 5px 0px #ccc;
+    height: 1200px;
+}
+
+.pasglobe {
+    margin-top: 74%;
+    height: 300px;
+}
+
+h3 {
+    color: #139c19;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+h2 {
+    color: #139c19;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.demi-cercle {
+    width: 8px;
+    height: 12px;
+    border: 8px solid #139c19;
+    background-color: #139c19;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 8px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+
+.globule {
+    position: relative;
+    right: 15px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.choix {
+    /**position: relative; */
+}
+
+.sous-menu {}
